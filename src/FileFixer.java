@@ -12,6 +12,7 @@ public class FileFixer {
 
     public static void main(String[] args) throws IOException {
         parseCSV("Boston Red Sox");
+        System.out.println();
     }
 
     public static ArrayList<String> parseCSV(String fileName) throws IOException {
